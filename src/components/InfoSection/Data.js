@@ -1,0 +1,51 @@
+export const HomeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Banck",
+  headline: "Unlimited Transaction with zero fees",
+  description:
+    "Get acces to our exclusive app that allows you to send unlimited transaction without getting charged any fees. ",
+  buttonLabel: "Get started",
+  imgStart: false,
+  img: require("../../images/svg-1.svg"),
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const HomeObjTo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Unlimited Access",
+  headline: "Login to your account at any time",
+  description:
+    "We have your convered no matter where are located. all you need is an internet connection and a phone or computer",
+  buttonLabel: "Learn More",
+  imgStart: true,
+  img: require("../../images/svg-2.svg"),
+  alt: "Car",
+  dark: false,
+  primary: true,
+  darkText: true,
+};
+export const HomeObjThree = {
+  id: "singup",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Join our Team",
+  headline: "Creating an account is extremely easy",
+  description:
+    "Get everything set up an ready in under 10 minutes. All you need to do is add your information and you're ready to go. ",
+  buttonLabel: "start Now",
+  imgStart: false,
+  img: require("../../images/svg-3.svg"),
+  alt: "Car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
